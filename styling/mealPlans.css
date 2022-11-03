@@ -1,0 +1,175 @@
+body {
+	font-family: "Nunito", sans-serif;
+}
+
+.top {
+	background-color: white;
+}
+
+.top-top {
+	margin: 15em 0 0 6em;
+	padding: 3em 0;
+}
+
+.top p {
+	color: rgb(92, 92, 92);
+}
+
+.top-top h1 {
+	font-weight: 400;
+	font-size: 4em;
+	margin-bottom: 0;
+}
+
+.main p {
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #4e5262;
+}
+
+.main h1 {
+	font-size: 3.5em;
+	font-weight: 400;
+}
+
+.main h2 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.main h3 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.main h4 {
+	font-weight: 700;
+}
+
+.main hr {
+	margin: 3em 0;
+	border: none;
+	height: 1px;
+	background: #e3ebee;
+}
+
+.emp {
+	color: #6c96cb;
+}
+.top {
+	margin: 0;
+	padding: 0.5em 4em;
+	background-color: white;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 90%;
+	margin: 3em auto;
+}
+
+.main__left {
+	flex: 3;
+	flex-basis: 30em;
+	padding-right: 6%;
+}
+
+.left__card {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 3em;
+}
+
+.card__img {
+	flex: 2.5;
+	/* flex-basis: 12em; */
+}
+
+.card__img img {
+	width: 100%;
+	height: 100%;
+}
+
+.card__content {
+	flex: 1;
+	display: block;
+	/* flex-basis: 6em; */
+	background-color: #222533;
+	padding: 1em 2.5em;
+	margin: ;
+	color: white;
+}
+
+.card__content p {
+	font-size: 1.2em;
+	line-height: 0.5em;
+	color: #a7aabb;
+}
+.card__content b {
+	font-size: 1.5em;
+	color: white;
+}
+
+.card__content button {
+	padding: 1em;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #4296cb;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.card__content h4 {
+	margin-bottom: 2em;
+}
+.card__content i {
+	font-size: 1.5em;
+	margin-right: 0.5em;
+}
+
+.main__left img {
+	width: 100%;
+}
+
+.main__right {
+	flex: 1;
+	flex-basis: 8em;
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+}
+
+.right__card {
+	flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (min-width: 600px) {
+	.left__card {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 940px) {
+	.left__card {
+		flex-direction: row;
+	}
+	.main__right {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 1125px) {
+	.left__card {
+		flex-direction: column;
+	}
+	.main__right {
+		flex-direction: row;
+	}
+}

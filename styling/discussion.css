@@ -1,0 +1,52 @@
+.container{
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    width: 100%;
+    height: 800px;
+    margin-top: 160px;
+    
+    
+
+}
+
+#headerds-h1{
+    margin-left: 280px;
+    
+}
+.input-form{
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.form-in>label{
+    font-weight: light;
+    color: #908ba1;
+}
+div>label{
+    font-weight: light;
+    color: #908ba1;
+}
+#topic{
+    width: 240px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-color: #edf2f4;
+    
+}
+#title{
+    width: 270px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-color: #edf2f4; 
+}
+#Message{
+    margin-bottom: 20px; 
+}
+#btn-1{
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4296cb;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}

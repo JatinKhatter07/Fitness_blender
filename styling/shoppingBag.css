@@ -1,0 +1,160 @@
+/* body {
+	background-color: #f0f4f6;
+} */
+.cont {
+	background-color: #f0f4f6;
+	padding: 4em 0;
+}
+.top {
+	/* margin-top: 150px; */
+	padding: 15em 8em 3em 8em;
+	background-color: white;
+}
+
+.top h1 {
+	font-weight: 400;
+	font-size: 3.5em;
+}
+
+.bag-cont {
+	width: 90%;
+	margin: 3em auto;
+	background-color: white;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	width: 100%;
+	margin: auto;
+	background-color: #f0f4f6;
+}
+
+.bag-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+.bag-header h3 {
+	font-size: 1.3em;
+	color: #7b7f92;
+}
+
+.bag-item-head {
+	width: 60%;
+	text-align: left;
+}
+.bag-action-head {
+	width: 20%;
+	text-align: center;
+}
+.bag-price-head {
+	width: 20%;
+	text-align: right;
+}
+
+.bag-iteemm {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2em;
+}
+.bag-item-name {
+	width: 60%;
+	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bag-item-remove {
+	border: none;
+	width: 20%;
+	text-align: center;
+}
+.bag-item-price {
+	width: 20%;
+	text-align: right;
+	margin-top: 3em;
+}
+
+.bag-iteemm .fa-times {
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.bag-item-name-img {
+	flex: 1;
+}
+
+.bag-item-name-img img {
+	width: 80%;
+}
+.bag-item-name-text {
+	flex: 2;
+	text-align: left;
+	padding: 3em 5em 1em 0;
+}
+.bag-iteemm h3 {
+	font-weight: 600;
+}
+
+.order-total {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+.order-total h2 {
+	font-size: 2.3em;
+	font-weight: 600;
+}
+
+.bag-last {
+	padding: 2em;
+}
+
+.proceed-to-checkout {
+	display: block;
+	margin: auto;
+	padding: 1em 2.7em;
+	color: white;
+	background-color: #4098cb;
+	border: none;
+	border-radius: 5px;
+}
+
+.empty-shopping-bag {
+	width: 60%;
+	margin: 8em auto;
+	text-align: center;
+	background-color: white;
+	padding: 4em;
+	display: none;
+}
+
+.empty-shopping-bag p {
+	font-size: 1.5em;
+	font-weight: 100;
+	color: rgb(78, 78, 78);
+}
+
+.go-to-programs {
+	background-color: #4296cb;
+	width: 50%;
+	border-radius: 5px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.go-to-programs h2 {
+	color: white;
+}
+
+.fa-external-link-alt {
+	font-size: 1.5em;
+	color: white;
+	margin: 0.8em 0 0 0.8em;
+}

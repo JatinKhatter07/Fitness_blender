@@ -1,0 +1,227 @@
+body {
+	font-family: Maison Neue, Helvetica Neue, Helvetica, Arial, Lucida Grande,
+		sans-serif;
+	margin: 0;
+}
+
+.cont {
+	margin: 0;
+}
+
+.top {
+	margin: 15em 0 3em 6em;
+	padding: 3em 5em;
+	background-color: white;
+}
+
+.top p {
+	color: rgb(92, 92, 92);
+}
+
+.top h1 {
+	font-weight: 400;
+	font-size: 4em;
+}
+
+.filters {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	display: flex;
+	margin-bottom: 2px;
+}
+
+.sort {
+	border-right: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	/* padding: 1em;
+	margin-left: 7em; */
+	display: flex;
+	margin-left: 7em;
+	padding-left: 2.5em;
+}
+
+.selectSort {
+	margin-top: 1.2em;
+}
+.search {
+	border-right: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	padding: 2.5em;
+	height: auto;
+	cursor: pointer;
+}
+
+.fa-sort {
+	margin-top: 3em;
+}
+
+.filters .fas {
+	color: #686868;
+	margin-right: 1em;
+}
+
+.filters span {
+	font-size: 1.3em;
+	/* color: #686868; */
+}
+
+.search-input {
+	margin: 1.5em 0 0 5em;
+	display: flex;
+	visibility: hidden;
+}
+
+.search-input .fa-search {
+	font-size: 1.5em;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.options {
+	margin-top: 3em;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin: 0;
+	background-color: #f0f4f6;
+}
+
+.card {
+	position: relative;
+	width: 30em;
+	margin: 0.3em;
+	background-color: white;
+	transition: box-shadow 0.35s ease-out;
+}
+
+.card img {
+	width: 100%;
+	border-bottom: 1px solid #f0f4f6;
+}
+
+.card__content p {
+	font-size: 1.2em;
+	color: #4296cb;
+	font-weight: 300;
+	padding-bottom: 0;
+}
+
+.card__content h4 {
+	font-weight: 600;
+	color: #2c2e3a;
+	margin-bottom: 3em;
+}
+
+.card__bottom {
+	width: 88%;
+	display: flex;
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+
+.card__content {
+	padding: 1.2em;
+	background-color: white;
+}
+
+.yellow {
+	background: #ffa23b;
+	background-image: url(https://cloudfront.fitnessblender.com/assets/img/custom-cards/orange.png);
+	position: relative;
+	width: 30em;
+	margin: 0.3em;
+}
+
+.red {
+	background: #ff505f;
+	background-image: url(https://cloudfront.fitnessblender.com/assets/img/custom-cards/red.png);
+	position: relative;
+	width: 30em;
+	margin: 0.3em;
+}
+
+.fb-transperant {
+	opacity: 60%;
+}
+
+.exclusive__card hr {
+	border: none;
+	height: 1px;
+	width: 60%;
+	margin: auto;
+	background-color: white;
+}
+
+.exclusive__card h1 {
+	margin-top: 1.5em;
+	font-size: 5.5em;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.exclusive__card h2 {
+	margin: 0 0 0.5em 0;
+	font-size: 3em;
+	font-weight: 500;
+	margin-top: 0;
+}
+
+.exclusive__card__content {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	margin-top: 6em;
+	color: white;
+}
+
+.exclusive__card p {
+	line-height: normal;
+	margin-top: 0.5em;
+	color: white;
+}
+
+/* 
+
+.term {
+	color: #878592;
+}
+
+.def {
+	font-weight: 500;
+} */
+
+.bottom__right button {
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #4296cb;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.bottom__right i {
+	margin-right: 1em;
+}
+
+.card__content {
+	margin-bottom: 5em;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 0px 3px rgba(66, 150, 203, 1);
+}

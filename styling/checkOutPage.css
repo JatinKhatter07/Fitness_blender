@@ -1,0 +1,38 @@
+.bag-cont {
+	border-radius: 10px;
+}
+
+.bag-cont h2 {
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+.bag-cont p {
+	font-size: 1.2em;
+	padding: 0.5em;
+	color: rgb(61, 61, 61);
+}
+
+.bag-cont h3 {
+	padding: 0.5em;
+	font-weight: 600;
+}
+
+.reviewOrder-head {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.7em 2em;
+	justify-content: space-between;
+	background-color: #fafcfd;
+}
+
+.reviewOrder-head h3 {
+	margin: 1em 0;
+}
+
+.reviewOrder-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.7em 2em;
+	justify-content: space-between;
+}

@@ -1,0 +1,136 @@
+body{
+    background: #e9e8e8;
+}
+.calender {
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    width: 95%;
+    background: white;
+}
+.calender-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calender-header button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin: 20px;
+}
+#calender {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: repeat(5, auto);
+    height: 100%;
+}
+.day{
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms;
+    height: 150px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: right;
+    padding-right: 15px;
+}
+.today-day{
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    height: 150px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: right;
+    padding-right: 15px;
+    
+    background: #30305c;
+    color: white;
+}
+.prev-day {
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms;
+    height: 150px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: right;
+    padding-right: 15px;
+    color: rgb(219, 212, 212);
+}
+.weekend {
+    color: #296080;
+}
+.selected {
+    background-color: lightblue;
+    color: white;
+}
+#days{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+#days div {
+    font-size: 15px;
+    margin: 15px 10px;
+	/* margin-left: 10px; */
+}
+.daysName {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 18px;
+    font-size: 13px;
+    height: 30px;
+}
+#month {
+    margin-top: 25px;
+}
+.showingDay {
+    color: rgb(4, 63, 4);
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #a6f8a6;
+    position: relative;
+}
+
+.message {
+    display: none;
+    /* height: 120px; */
+    width: 120%;
+    margin: -14%;
+    margin-top: 80px;
+    background: white;
+    position: absolute;
+    box-shadow: 5px 5px 10px #c7c3c3, -5px -5px 10px #b1aeae;
+    z-index: 10;
+    text-align: center;
+    padding: 15px;
+}
+.showingDay:hover div.message {
+    display: block;
+}
+.text {
+    font-size: 1.2rem;
+}
+
+.remove {
+    width: fit-content;
+    margin: 10px auto;
+    /* height: 20px; */
+    background: #4296CB;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+.remove:hover{ background: linear-gradient(135deg, #61bbf3, #4296CB)}

@@ -1,0 +1,134 @@
+body{
+    background-color: #f0f4f6;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.community-header{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 160px;
+}
+.controls{
+    display: flex;
+}
+.community-h1{
+    margin: 40px 40px;
+    /* border: 1px solid red; */
+}
+.control-filter{
+    display: block;
+    margin: 20px 40px;
+}
+.flex-right-part{
+    flex-grow: 1;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    
+}
+.btn{
+    position: absolute;
+    bottom: 0;
+    right:20%;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4296cb;
+    color: white;
+    transition-duration: 1s;
+    /* margin-left: 20px; */  
+
+}
+.btn:hover{
+    background-image: linear-gradient(to right top, #4296c3, #3e98d4, #3999d5, #349bd6, #2f9ce7);
+}
+#lens{
+    position: absolute;
+    bottom: 12px;
+    right: 18%;
+
+}
+.sort{
+   display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 88%;
+   
+}
+#sort-para{
+    position: absolute;
+    bottom: 0;
+    right: 13.5%;
+    font-weight: lighter;
+    font-size: 13px;
+}
+#community-contents{
+    width: 80%;
+    height: 800px;
+    background-color: white;
+    margin: 2% 10%;
+}
+.header-option-flex{
+        display: flex;
+        justify-content: space-around;
+         height: 50px;
+        /* border: 1px solid red; */
+        flex-wrap: wrap;
+}
+.header-option-flex>h3{
+   
+    display: block;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.content-flex-col{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+        border-top: 1px solid #f9fafb;
+    border-bottom: 1px solid #f9fafb;
+        font-weight: lighter;
+}
+
+.flex-row-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+    
+
+}
+.flex-row-content>div{
+    /* margin: auto 7%; */
+    /* border: 1px solid blue; */
+   
+}
+.round-div{
+   
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50px;
+    text-align: center;
+}
+round-div>span{
+   
+    display: block;
+    margin-top: 20%;
+    border: 1px solid red;
+
+}
+.anc:link{
+        text-decoration: none;
+        
+}
+.anc:hover{
+    text-decoration: underline;
+}
+.anc{
+    color: black;
+    font-size: 20px;
+}
