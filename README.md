@@ -1,6 +1,6 @@
 # Fitness Blender Cone
 This is a clone of <a href="https://www.fitnessblender.com/">Fitness Blender</a> website. The clone is complete with Login page, Sign-in page, Shopping Cart, Wishlist and Calender Scheduling feature. Following is the link to the clone of the website.
-* <a href="/">Fitness Blender Clone</a>
+* <a href="https://fitnessblenderclone.netlify.app/">Fitness Blender Clone</a>
 
 The project is built using HTML, CSS and Javascript. The aim is to learn basic technologies in web development along with some advanced concepts like Async-Await and Promises. The project also includes fetching data from a local API which mimics an actual API. 
 
